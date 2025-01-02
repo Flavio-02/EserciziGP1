@@ -39,13 +39,17 @@ namespace Esercizi_Vacanze
             decimal euro = 5;
             #endregion
 
-            #region
+            #region es 7
+            float es7 = 1.1234567f; //7 cifre decim
+            double es7x = 1.1234567891011121; //14 cifre decim
             #endregion
 
-            #region
+            #region es 8
+            long es8 = 800111222333444555;
             #endregion
 
-            #region
+            #region es 9
+            short es9 = 32333;
             #endregion
 
             #region
