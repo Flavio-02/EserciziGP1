@@ -28,13 +28,15 @@ namespace Esercizi_Vacanze
             #endregion
 
             #region es 4
-
+            double es4 = 1.11;
             #endregion
 
-            #region
+            #region es 5
+            char es5 = 'a';
             #endregion
 
-            #region
+            #region es 6
+            decimal euro = 5;
             #endregion
 
             #region
