@@ -6,367 +6,378 @@ using System.Threading.Tasks;
 
 namespace Esercizi_Vacanze
 {
-    #region es 1
+    internal class program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("variabili");
 
-    #endregion
+            #region es 1
+            int es1 = 1;
+            es1 = 0;
+            #endregion
 
-    #region
-    #endregion
+            #region es 2
+            string es2 = "es2";
+            Console.WriteLine("concatenato a " + es2);
+            #endregion
 
-    #region
-    #endregion
+            #region es 3
+            bool es3 = false;
+            es3 = true;
+            #endregion
 
-    #region
-    #endregion
+            #region es 4
 
-    #region
-    #endregion
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
-    #region
-    #endregion
+            #region
+            #endregion
 
+            #region
+            #endregion
 
 
 
@@ -381,7 +392,8 @@ namespace Esercizi_Vacanze
 
 
 
+        }
 
-
+    }
 
 }
