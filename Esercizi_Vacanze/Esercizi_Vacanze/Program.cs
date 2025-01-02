@@ -52,13 +52,17 @@ namespace Esercizi_Vacanze
             short es9 = 32333;
             #endregion
 
-            #region
+            #region es 10
+            byte es10 = 255;
             #endregion
 
-            #region
+            #region es 11
+            const int es11 = 3;
+            //if (es11 == 3) {es11 = 34}; non posso modificarla in quanto variabile
             #endregion
 
-            #region
+            #region es 12
+            int es12 = 4; string es12x = "hello"; bool es12y = false;
             #endregion
 
             #region

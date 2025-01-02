@@ -1,0 +1,7 @@
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\bin\Debug\Esercizi_Vacanze.exe.config
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\bin\Debug\Esercizi_Vacanze.exe
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\bin\Debug\Esercizi_Vacanze.pdb
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\obj\Debug\Esercizi_Vacanze.csproj.AssemblyReference.cache
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\obj\Debug\Esercizi_Vacanze.csproj.CoreCompileInputs.cache
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\obj\Debug\Esercizi_Vacanze.exe
+C:\Users\flavi\OneDrive\Desktop\progetti git\EserciziGP1\Esercizi_Vacanze\Esercizi_Vacanze\obj\Debug\Esercizi_Vacanze.pdb
