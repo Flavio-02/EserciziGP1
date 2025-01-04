@@ -79,13 +79,18 @@ namespace Esercizi_Vacanze
             float es15float = (float)es15;
             #endregion
 
-            #region
+            #region es 16
+            const string es16 = "hello";
             #endregion
 
-            #region
+            #region es 17
+            DateTime es17 = DateTime.Now;
             #endregion
 
-            #region
+            #region es 18
+            int es18 = 2;
+            int es18x = 4;
+            int somma = es18 + es18x;
             #endregion
 
             #region
