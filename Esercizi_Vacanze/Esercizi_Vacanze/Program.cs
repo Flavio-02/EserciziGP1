@@ -65,13 +65,18 @@ namespace Esercizi_Vacanze
             int es12 = 4; string es12x = "hello"; bool es12y = false;
             #endregion
 
-            #region
+            #region es 13
+            var es13 = 5; var es13x = "hello";
             #endregion
 
-            #region
+            #region es 14
+            int es14 = 15;
+            int es14x = es14 * 2;
             #endregion
 
-            #region
+            #region es 15
+            int es15 = 15;
+            float es15float = (float)es15;
             #endregion
 
             #region
