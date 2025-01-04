@@ -10,7 +10,8 @@ namespace Esercizi_Vacanze
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("variabili");
+            #region VARIABILI
+            Console.WriteLine("variabili");  //VARIABILI
 
             #region es 1
             int es1 = 1;
@@ -92,14 +93,22 @@ namespace Esercizi_Vacanze
             int es18x = 4;
             int somma = es18 + es18x;
             #endregion
-
-            #region
             #endregion
 
-            #region
+            Console.WriteLine();
+            Console.WriteLine("funzioni");  // FUNZIONI
+
+            #region es 1 (19)
+            SommaEs19();
             #endregion
 
-            #region
+            #region es 2 (20)
+            VoidEs20();
+            #endregion
+
+            #region es 3 (21)
+            string es21 = "hello";
+            Es21Lenght(es21);
             #endregion
 
             #region
@@ -414,6 +423,20 @@ namespace Esercizi_Vacanze
 
         }
 
+        private static void Es21Lenght(string es21)
+        {
+            Console.WriteLine("la lunghezza di es21 è: " + es21.Length);
+        }
+
+        private static void VoidEs20()
+        {
+            Console.WriteLine("es2 (20)");
+        }
+
+        private static void SommaEs19()
+        {
+            int es19somma = 10 + 20;
+        }
     }
 
 }
