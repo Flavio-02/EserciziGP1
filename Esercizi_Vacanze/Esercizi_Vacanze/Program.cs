@@ -111,16 +111,30 @@ namespace Esercizi_Vacanze
             Es21Lenght(es21);
             #endregion
 
-            #region
+            #region es 4 (22)
+            Es22("es22");
             #endregion
 
-            #region
+            #region es 5 (23)
+            int[] es23 = { 1, 2, };
+            Es23Array(es23);
             #endregion
 
-            #region
+            #region es 6 (24)
+            try
+            {
+                // Chiamata della funzione con un esempio
+                int numero = 5;
+                long risultato = Es24Fattoriale(numero);
+
+            }
+            catch (ArgumentException ex)
+            {
+            }
             #endregion
 
-            #region
+            #region es 7 (25)
+
             #endregion
 
             #region
@@ -407,6 +421,13 @@ namespace Esercizi_Vacanze
 
             #region
             #endregion
+
+
+
+
+
+
+
 
 
 
@@ -414,13 +435,34 @@ namespace Esercizi_Vacanze
 
 
 
+        }
 
+        static long Es24Fattoriale(int numero)
+        {
+            if (numero < 0)
+            {
+                throw new ArgumentException("Il fattoriale non è definito per numeri negativi");
+            }
 
+            long fattoriale = 1;
 
+            for (int i = 1; i <= numero; i++)
+            {
+                fattoriale *= i;
+            }
 
+            return fattoriale;
+        }
 
 
+        private static void Es23Array(int[] es23)
+        {
+            Console.WriteLine(es23);
+        }
 
+        static void Es22 (string nome, int eta = 18)
+        {
+            Console.WriteLine($"Nome: {nome}, Età: {eta}");
         }
 
         private static void Es21Lenght(string es21)
