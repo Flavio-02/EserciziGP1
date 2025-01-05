@@ -161,13 +161,30 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 16 (46)
+            int[] es46 = { 1, 2, 3, 4, 5 };
+
+            if (es46.Contains(3))
+            {
+                // L'array contiene l'elemento 3
+            }
+            else
+            {
+                // L'array non contiene l'elemento 3
+            }
             #endregion
 
-            #region
+            #region es 17 (47)
+            int es47 = -5;
+
+            string risultatoEs47 = DeterminasegnoEs47(es47);
+
             #endregion
 
-            #region
+            #region es 18 (48)
+            int es48 = 3; //3 = mercoledì
+
+            string giornoEs48 = DeterminaGiornoEs48(es48);
             #endregion
 
             #region
@@ -393,19 +410,52 @@ namespace Esercizi_Vacanze.pt2
 
         }
 
+        static string DeterminaGiornoEs48(int giorno)
+        {
+            string risultatoEs48;
+
+            switch (giorno)
+            {
+                case 1:
+                    risultatoEs48 = "Lunedì";
+                    break;
+                case 2:
+                    risultatoEs48 = "Martedì";
+                    break;
+                case 3:
+                    risultatoEs48 = "Mercoledì";
+                    break;
+                case 4:
+                    risultatoEs48 = "Giovedì";
+                    break;
+                case 5:
+                    risultatoEs48 = "Venerdì";
+                    break;
+                case 6:
+                    risultatoEs48 = "Sabato";
+                    break;
+                case 7:
+                    risultatoEs48 = "Domenica";
+                    break;
+                default:
+                    risultatoEs48 = "Numero non valido";
+                    break;
+            }
+
+            return risultatoEs48;
+        }
 
 
 
-
-
-
-
-
-
-
-
-
-
+        static string DeterminasegnoEs47(int numero)
+        {
+            if (numero > 0)
+                return "Positivo";
+            else if (numero < 0)
+                return "Negativo";
+            else
+                return "Zero";
+        }
 
     }
 }
