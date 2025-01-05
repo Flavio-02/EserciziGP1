@@ -121,11 +121,14 @@ namespace Esercizi_Vacanze
             #endregion
 
             #region es 6 (24)
+            
             try
             {
                 // Chiamata della funzione con un esempio
-                int numero = 5;
-                long risultato = Es24Fattoriale(numero);
+                int es24 = 5;
+                long es24result = Es24Fattoriale(es24);
+
+                Console.WriteLine(es24result);
 
             }
             catch (ArgumentException ex)
@@ -134,22 +137,34 @@ namespace Esercizi_Vacanze
             #endregion
 
             #region es 7 (25)
+            int es25 = 4;
+            bool risultato = IsEven(es25);
 
             #endregion
 
-            #region
+            #region es 8 (26)
+            //guardare es 6 (24)
             #endregion
 
-            #region
+            #region es 9 (27)
+            List<int> es27 = Es27Numbers();
+            // Console.WriteLine(string.Join(", ", es27));
             #endregion
 
-            #region
+            #region es 10 (28)
+            Es28Persona es28Persona = new Es28Persona { Nome = "Mario", Eta = 30 };
+            Es28Persona nuovaEs28Persona = ModificaEs28Persona(es28Persona);
             #endregion
 
-            #region
+            #region es 11 (29)
+            List<int> es29 = new List<int> { 1, 2, 3, 4, 5 };
+            Es29ModLista(es29);
+
             #endregion
 
-            #region
+            #region es 12 (30)
+            int es30 = 5;
+            string es30result = VerificaPariDispari(es30);
             #endregion
 
             #region
@@ -437,23 +452,65 @@ namespace Esercizi_Vacanze
 
         }
 
-        static long Es24Fattoriale(int numero)
+
+        static string VerificaPariDispari(int es30)
         {
-            if (numero < 0)
+            if (es30 % 2 == 0)
+                return "Pari";
+            else
+                return "Dispari";
+        }
+
+        static void Es29ModLista(List<int> lista)
+        {
+            for (int i = 0; i < lista.Count; i++)
+            {
+                lista[i] *= 2;
+            }
+        }
+
+
+        static Es28Persona ModificaEs28Persona(Es28Persona es28Persona)
+        {
+            return new Es28Persona
+            {
+                Nome = es28Persona.Nome.ToUpper(),
+                Eta = es28Persona.Eta + 1
+            };
+        }
+        class Es28Persona
+        {
+            public string Nome { get; set; }
+            public int Eta { get; set; }
+        }
+
+
+
+        static List<int> Es27Numbers()
+        {
+            return new List<int> { 1, 2, 3, 4, 5 };
+        }
+
+        static bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
+        static long Es24Fattoriale(int es24)
+        {
+            if (es24 < 0)
             {
                 throw new ArgumentException("Il fattoriale non è definito per numeri negativi");
             }
 
             long fattoriale = 1;
 
-            for (int i = 1; i <= numero; i++)
+            for (int i = 1; i <= es24; i++)
             {
                 fattoriale *= i;
             }
 
             return fattoriale;
         }
-
 
         private static void Es23Array(int[] es23)
         {
