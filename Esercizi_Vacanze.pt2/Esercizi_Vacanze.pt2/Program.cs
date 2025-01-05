@@ -91,16 +91,39 @@ namespace Esercizi_Vacanze.pt2
             else;
             #endregion
 
-            #region
+            #region es 10 (40)
+            int es40 = 25;
+            string risultatoEs40 = es40 >= 18 ? "Adulto" : "Minorenne";
             #endregion
 
-            #region
+            #region es 11 (41)
+           int es41 = 15;
+
+            if (es41 < 10) ;
+            // Il numero è minore di 10
+            else if (es41 >= 10 && es41 < 20) ;
+            // Il numero è compreso tra 10 e 19
+            else if (es41 >= 20 && es41 < 30) ;
+            // Il numero è compreso tra 20 e 29
+            else;
+            // Il numero è 30 o maggiore
             #endregion
 
-            #region
+            #region es 12 (42)
+            int es42a = 10, es42b = 20;
+
+            if (es42a > es42b)
+            {
+                // es42a è maggiore
+            }
+            else
+            {
+                // es42b è maggiore
+            }
             #endregion
 
-            #region
+            #region es 13 (43)
+
             #endregion
 
             #region
