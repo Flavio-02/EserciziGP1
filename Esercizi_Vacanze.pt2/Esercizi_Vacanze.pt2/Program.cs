@@ -43,13 +43,23 @@ namespace Esercizi_Vacanze.pt2
             bool risultato = es33 > 18 && es33 < 65;
             #endregion
 
-            #region
+            #region es 4 (34)
+            int es34 = 25;
+            bool risultatoEs34 = es34 < 10 || es34 > 20;
             #endregion
 
-            #region
+            #region es 5 (35)
+            bool es35 = false;
+            bool risultatoEs35 = !es35;
             #endregion
 
-            #region
+            #region es 6 (36)
+            bool es36 = true;
+
+            if (es36)
+                ;
+            else
+                ;
             #endregion
 
             #region
