@@ -62,13 +62,33 @@ namespace Esercizi_Vacanze.pt2
                 ;
             #endregion
 
-            #region
+            #region es 7 (37)
+            bool es37 = true;
+
+            if (es37) ;
+            else if (!es37) ;
+            else;
             #endregion
 
-            #region
+            #region es 8 (38)
+            bool es38 = true;
+
+            switch (es38)
+            {
+                case true:
+                    //Console.WriteLine("vero");
+                    break;
+                case false:
+                   // Console.WriteLine("falso");
+                    break;
+            }
             #endregion
 
-            #region
+            #region es 9 (39)
+            int es39 = 15;
+
+            if (es39 > 10 && es39 < 20) ;
+            else;
             #endregion
 
             #region
