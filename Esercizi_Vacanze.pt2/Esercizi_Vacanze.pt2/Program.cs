@@ -123,13 +123,42 @@ namespace Esercizi_Vacanze.pt2
             #endregion
 
             #region es 13 (43)
+            string es43 = "";
 
+            if (string.IsNullOrEmpty(es43))
+            {
+                // La stringa è vuota o nulla
+            }
+            else
+            {
+                // La stringa non è vuota e non è nulla
+            }
             #endregion
 
-            #region
+            #region es 14 (44)
+            int es44 = 2024;
+
+            if ((es44 % 4 == 0 && es44 % 100 != 0) || es44 % 400 == 0)
+            {
+                // L'anno è bisestile
+            }
+            else
+            {
+                // L'anno non è bisestile
+            }
             #endregion
 
-            #region
+            #region es 15 (45)
+            string es45 = "Ciao, come stai?";
+
+            if (es45.Contains("come"))
+            {
+                // La stringa contiene la sottostringa "come"
+            }
+            else
+            {
+                // La stringa non contiene la sottostringa "come"
+            }
             #endregion
 
             #region
