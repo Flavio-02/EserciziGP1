@@ -434,16 +434,54 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 16 (70)
+            int[] es70 = { 10, 20, 30, 40, 50 };
+
+            for (int iEs70 = 0; iEs70 < es70.Length; iEs70++)
+            {
+                Console.WriteLine("Indice: "+ iEs70 +" Valore: " + es70[iEs70]);
+            }
             #endregion
 
-            #region
+            #region es 17 (71)
+            bool es71 = false;
+
+            do
+            {
+                // La condizione verifica se il valore booleano è true
+                if (es71)
+                {
+                    break; // Esce dal ciclo se es71 è true
+                }
+
+                es71 = true; // Modifica il valore di es71 per continuare il ciclo
+
+            } while (!es71);
             #endregion
 
-            #region
+            #region es 18 (72)
+            int es72 = 10;
+            int sommaEs72 = 0;
+
+            for (int iEs72 = 1; iEs72 <= es72; iEs72++)
+            {
+                if (iEs72 % 2 != 0) // Verifica se il numero è dispari
+                {
+                    sommaEs72 += iEs72; // Aggiunge il numero dispari alla somma
+                }
+            }
             #endregion
 
-            #region
+            #region es 19 (73)
+            int es73 = 0;
+            int sogliaEs73 = 10;
+
+            while (es73 < sogliaEs73)
+            {
+                es73++; // Incrementa il valore
+
+                // Il ciclo termina quando es73 raggiunge o supera la soglia
+            }
             #endregion
 
             #region
