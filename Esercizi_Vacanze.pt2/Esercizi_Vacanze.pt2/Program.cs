@@ -187,13 +187,50 @@ namespace Esercizi_Vacanze.pt2
             string giornoEs48 = DeterminaGiornoEs48(es48);
             #endregion
 
-            #region
+            #region es 19 (49)
+            int es49 = 15;
+
+            if (es49 % 3 == 0 && es49 % 5 == 0)
+            {
+                //Il numero è divisibile per 3 e 5
+            }
+            else
+            {
+                //Il numero non è divisibile per 3 e 5
+            }
             #endregion
 
-            #region
+            #region es 20 (50)
+            bool es50 = true;
+
+            if (es50)
+            {
+                //Il valore è true
+            }
+            else
+            {
+                //Il valore è false
+            }
             #endregion
 
-            #region
+            #region es 21 (51)
+            string es51 = "ciao";
+
+            switch (es51)
+            {
+                case "ciao":
+                    // La stringa è "ciao"
+                    break;
+                case "hello":
+                    // La stringa è "hello"
+                    break;
+                case "hola":
+                    // La stringa è "hola"
+                    break;
+                default:
+                    // La stringa non corrisponde a nessun caso
+                    break;
+            }
             #endregion
 
             #region
