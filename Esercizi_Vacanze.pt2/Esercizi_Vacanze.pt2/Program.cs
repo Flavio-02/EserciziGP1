@@ -389,16 +389,49 @@ namespace Esercizi_Vacanze.pt2
             // Ora es65 contiene {2, 4, 6, 8, 10}
             #endregion
 
-            #region
+            #region es 12 (66)
+            int[] es66 = { 1, 2, 3, 4, 5 };
+            int totaleEs66 = 0;
+            int iEs66 = 0;
+
+            do
+            {
+                totaleEs66 += es66[iEs66];
+                iEs66++;
+            } while (iEs66 < es66.Length);
             #endregion
 
-            #region
+            #region es 13 (67)
+            for (int iEs67 = 1; iEs67 <= 10; iEs67++)
+            {
+                if (iEs67 == 5)
+                {
+                    break; // Interrompe il ciclo quando iEs67 è 5
+                }
+            }
             #endregion
 
-            #region
+            #region es 14 (68)
+            int iEs68 = 0;
+
+            while (iEs68 < 10)
+            {
+                iEs68++;
+
+                if (iEs68 == 5)
+                {
+                    continue; // Salta il resto del ciclo quando iEs68 è 5
+                }
+            }
             #endregion
 
-            #region
+            #region es 15 (69)
+            int es69 = 0;
+
+            for (int iEs69 = 1; iEs69 <= 5; iEs69++)
+            {
+                es69 += iEs69; // Utilizza la variabile dichiarata all'esterno del ciclo
+            }
             #endregion
 
             #region
