@@ -484,16 +484,74 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 20 (74)
+            List<string> es74 = new List<string> { "Ciao", "Mondo", "Esercizio", "CSharp" };
+            int lunghezzaTotaleEs74 = 0;
+
+            foreach (var strEs74 in es74)
+            {
+                lunghezzaTotaleEs74 += strEs74.Length; // Aggiunge la lunghezza di ogni stringa alla somma totale
+            }
             #endregion
 
-            #region
+            #region es 21 (75)
+            int sceltaEs75;
+
+            do
+            {
+                Console.WriteLine();
+                Console.WriteLine("Menu:");
+                Console.WriteLine("1. Opzione 1");
+                Console.WriteLine("2. Opzione 2");
+                Console.WriteLine("3. Esci");
+                Console.Write("Scegli un'opzione: ");
+                sceltaEs75 = int.Parse(Console.ReadLine());
+
+                switch (sceltaEs75)
+                {
+                    case 1:
+                        Console.WriteLine("Hai scelto l'opzione 1.");
+                        break;
+                    case 2:
+                        Console.WriteLine("Hai scelto l'opzione 2.");
+                        break;
+                    case 3:
+                        Console.WriteLine("Uscita...");
+                        break;
+                    default:
+                        Console.WriteLine("Opzione non valida.");
+                        break;
+                }
+
+            } while (sceltaEs75 != 3); // Il ciclo continua fino a quando l'utente sceglie "3" per uscire
             #endregion
 
-            #region
+            #region es 22 (76)
+            for (int iEs76 = 1; iEs76 <= 20; iEs76++)
+            {
+                // Condizione complessa: il numero deve essere divisibile per 2 o 3
+                if (iEs76 % 2 == 0 || iEs76 % 3 == 0)
+                {
+                   // Console.WriteLine(iEs76); // Stampa i numeri che soddisfano la condizione
+                }
+            }
             #endregion
 
-            #region
+            #region es 23 (77)
+            int[] es77 = { 5, 10, 15, 20, 25, 30 };
+            int valoreDaCercareEs77 = 20;
+            int iEs77 = 0;
+            bool trovatoEs77 = false;
+
+            while (iEs77 < es77.Length)
+            {
+                if (es77[iEs77] == valoreDaCercareEs77)
+                {
+                    trovatoEs77 = true;
+                    break; // Esce dal ciclo se il valore è trovato
+                }
+                iEs77++;
+            }
             #endregion
 
             #region
