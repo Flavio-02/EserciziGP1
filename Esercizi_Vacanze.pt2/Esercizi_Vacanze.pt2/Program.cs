@@ -301,16 +301,49 @@ namespace Esercizi_Vacanze.pt2
             } while (es57 <= 0);
             #endregion
 
-            #region
+            #region es 4 (58)
+            int[] es58 = { 1, 2, 3, 4, 5 };
+
+            int sommaEs58 = 0;
+            for (int ies58 = 0; ies58 < es58.Length; ies58++)
+            {
+                sommaEs58 += es58[ies58];
+            }
             #endregion
 
-            #region
+            #region es 5 (59)
+            List<string> es59 = new List<string> { "Ciao", "Mondo", "Esercizio", "Csharp" };
+
+            foreach (string parola in es59)
+            {
+                // Parola contiene il valore corrente della lista
+            }
             #endregion
 
-            #region
+            #region es 6 (60)
+            int es60 = 5;
+            long fattorialeEs60 = 1;
+
+            for (int ies60 = 1; ies60 <= es60; ies60++)
+            {
+                fattorialeEs60 *= ies60;
+            }
             #endregion
 
-            #region
+            #region es 7 (61)
+            int es61 = 29;
+            bool isPrimeEs61 = true;
+            int i = 2;
+
+            while (i * i <= es61)
+            {
+                if (es61 % i == 0)
+                {
+                    isPrimeEs61 = false;
+                    break;
+                }
+                i++;
+            }
             #endregion
 
             #region
