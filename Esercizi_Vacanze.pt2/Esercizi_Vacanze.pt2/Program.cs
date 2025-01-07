@@ -272,13 +272,33 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            //LOOP
+
+            #region es 1 (55)
+            for (int es55 = 1; es55 <= 10; es55++)
+            {
+                Console.Write(es55 + " ");
+            }
             #endregion
 
-            #region
+            #region es 2 (56)
+            int es56 = 50;
+
+            while (es56 < 100)
+            {
+                es56 += 10;
+                // Incrementa il valore di es56 di 10 ad ogni ciclo
+            }
             #endregion
 
-            #region
+            #region es 3 (57)
+            int es57 = 1;
+
+            do
+            {
+                Console.Write("Inserisci un numero maggiore di 0: ");
+              //    es57 = int.Parse(Console.ReadLine());
+            } while (es57 <= 0);
             #endregion
 
             #region
