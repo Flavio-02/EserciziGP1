@@ -63,6 +63,65 @@ namespace Esercizi_Vacanze.pt2
             Autobus
         }
 
+        struct PuntoEs86
+        {
+            public double X;
+            public double Y;
+
+            // Costruttore della struct
+            public PuntoEs86(double x, double y)
+            {
+                X = x;
+                Y = y;
+            }
+
+            // Metodo per calcolare la distanza dall'origine (0, 0)
+            public double CalcolaDistanza()
+            {
+                return Math.Sqrt(X * X + Y * Y);
+            }
+        }
+
+
+        enum GiornoSettimanaEs87
+        {
+            Lunedì = 1,
+            Martedì = 2,
+            Mercoledì = 3,
+            Giovedì = 4,
+            Venerdì = 5,
+            Sabato = 6,
+            Domenica = 7
+        }
+
+        enum StatoOrdineEs88
+        {
+            InAttesa = 1,
+            InElaborazione = 2,
+            Spedito = 3,
+            Consegnato = 4
+        }
+
+        struct ColoreRGBEs89
+        {
+            public int R;
+            public int G;
+            public int B;
+
+            // Costruttore della struct
+            public ColoreRGBEs89(int r, int g, int b)
+            {
+                R = r;
+                G = g;
+                B = b;
+            }
+
+            // Metodo per visualizzare il colore in formato RGB
+            public void VisualizzaColore()
+            {
+                Console.WriteLine($"Colore RGB: ({R}, {G}, {B})");
+            }
+        }
 
         #endregion
         static void Main(string[] args)
@@ -685,19 +744,54 @@ namespace Esercizi_Vacanze.pt2
             TipoVeicoloEs85 veicoloEs85 = TipoVeicoloEs85.Moto;
             #endregion
 
-            #region
+            #region es 7 (86)
+            // Creazione di un oggetto PuntoEs86
+            PuntoEs86 puntoEs86 = new PuntoEs86(3, 4);
+
+            // Calcolo e stampa della distanza dall'origine
+            double distanzaEs86 = puntoEs86.CalcolaDistanza();
             #endregion
 
-            #region
+            #region es 8 (87)
+            int giornoIntEs87 = 3;
+
+            // Casting del valore int in un enum
+            GiornoSettimanaEs87 giornoEs87 = (GiornoSettimanaEs87)giornoIntEs87;
             #endregion
 
-            #region
+            #region es 9 (88)
+            StatoOrdineEs88 statoOrdineEs88 = StatoOrdineEs88.InElaborazione;
+
+            switch (statoOrdineEs88)
+            {
+                case StatoOrdineEs88.InAttesa:
+                    Console.WriteLine("L'ordine è in attesa.");
+                    break;
+                case StatoOrdineEs88.InElaborazione:
+                    Console.WriteLine("L'ordine è in elaborazione.");
+                    break;
+                case StatoOrdineEs88.Spedito:
+                    Console.WriteLine("L'ordine è stato spedito.");
+                    break;
+                case StatoOrdineEs88.Consegnato:
+                    Console.WriteLine("L'ordine è stato consegnato.");
+                    break;
+                default:
+                    Console.WriteLine("Stato ordine non valido.");
+                    break;
+            }
             #endregion
 
-            #region
+            #region es 10 (89)
+            // Creazione di un colore RGB
+            ColoreRGBEs89 coloreEs89 = new ColoreRGBEs89(255, 0, 0);
+
+            // Visualizzazione del colore
+            coloreEs89.VisualizzaColore();
             #endregion
 
-            #region
+            #region es 11 (90)
+            //
             #endregion
 
             #region
