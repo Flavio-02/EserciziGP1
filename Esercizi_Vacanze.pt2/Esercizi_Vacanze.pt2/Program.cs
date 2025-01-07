@@ -346,16 +346,47 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 8 (62)
+            int es62 = 20;
+            int numeroEs62 = 2;
+
+            do
+            {
+               //  Console.WriteLine(numeroEs62 + " ");
+                numeroEs62 += 2;
+            } while (numeroEs62 <= es62);
             #endregion
 
-            #region
+            #region es 9 (63)
+            int es63 = 10;
+
+            for (int ies63 = es63; ies63 >= 1; ies63--)
+            {
+                // Stampa il numero
+            }
             #endregion
 
-            #region
+            #region es 10 (64)
+            int es64 = 5;
+            long prodottoEs64 = 1;
+            int ies64 = 1;
+
+            while (ies64 <= es64)
+            {
+                prodottoEs64 *= ies64;
+                ies64++;
+            }
             #endregion
 
-            #region
+            #region es 11 (65)
+            List<int> es65 = new List<int> { 1, 2, 3, 4, 5 };
+
+            for (int iEs65 = 0; iEs65 < es65.Count; iEs65++)
+            {
+                es65[iEs65] *= 2; // Modifica i valori della lista
+            }
+
+            // Ora es65 contiene {2, 4, 6, 8, 10}
             #endregion
 
             #region
