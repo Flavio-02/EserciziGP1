@@ -8,6 +8,25 @@ namespace Esercizi_Vacanze.pt2
 {
     internal class Program
     {
+        enum GiornoSettimanaEs80
+        {
+            Lunedì,
+            Martedì,
+            Mercoledì,
+            Giovedì,
+            Venerdì,
+            Sabato,
+            Domenica
+        }
+
+        enum PrioritaTaskEs81
+        {
+            Bassa,
+            Media,
+            Alta,
+            Urgente
+        }
+
         static void Main(string[] args)
         {
             //ALGEBRA DI BOOL
@@ -554,16 +573,41 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 24 (78)
+            int[] es78 = { 10, 20, 30, 40, 50 };
+            int sommaEs78 = 0;
+
+            for (int iEs78 = 0; iEs78 < es78.Length; iEs78++)
+            {
+                sommaEs78 += es78[iEs78]; // Aggiunge il valore dell'array alla somma totale
+            }
+
+            double mediaEs78 = (double)sommaEs78 / es78.Length; // Calcola la media
             #endregion
 
-            #region
+            #region es 25 (79)
+            int[] es79Originale = { 1, 2, 3, 4, 5 };
+            int[] es79Copiato = new int[es79Originale.Length];
+
+            int iEs79 = 0;
+            foreach (int valoreEs79 in es79Originale)
+            {
+                es79Copiato[iEs79] = valoreEs79; // Copia il valore da es79Originale a es79Copiato
+                iEs79++;
+            }
             #endregion
 
-            #region
+            //ENUM, STRUCT E CAST
+
+            #region es 1 (80)
+            foreach (GiornoSettimanaEs80 giornoEs80 in Enum.GetValues(typeof(GiornoSettimanaEs80)))
+            {
+                //Console.WriteLine(giornoEs80); // Stampa ogni giorno della settimana
+            }
             #endregion
 
-            #region
+            #region es 2 (81)
+            PrioritaTaskEs81 prioritaEs81 = PrioritaTaskEs81.Alta;
             #endregion
 
             #region
