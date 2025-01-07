@@ -8,6 +8,7 @@ namespace Esercizi_Vacanze.pt2
 {
     internal class Program
     {
+        #region enum e strutture dichiarati
         enum GiornoSettimanaEs80
         {
             Lunedì,
@@ -27,6 +28,43 @@ namespace Esercizi_Vacanze.pt2
             Urgente
         }
 
+        enum OpzioneMenuEs82
+        {
+            A,
+            B,
+            C,
+            Esci
+        }
+
+
+        struct RettangoloEs84
+        {
+            public double Larghezza;
+            public double Altezza;
+
+            public RettangoloEs84(double larghezza, double altezza)
+            {
+                Larghezza = larghezza;
+                Altezza = altezza;
+            }
+
+            public double CalcolaArea()
+            {
+                return Larghezza * Altezza;
+            }
+        }
+
+        enum TipoVeicoloEs85
+        {
+            Auto,
+            Moto,
+            Camion,
+            Bicicletta,
+            Autobus
+        }
+
+
+        #endregion
         static void Main(string[] args)
         {
             //ALGEBRA DI BOOL
@@ -610,16 +648,41 @@ namespace Esercizi_Vacanze.pt2
             PrioritaTaskEs81 prioritaEs81 = PrioritaTaskEs81.Alta;
             #endregion
 
-            #region
+            #region es 3 (82)
+            OpzioneMenuEs82 sceltaEs82 = OpzioneMenuEs82.B;
+
+            switch (sceltaEs82)
+            {
+                case OpzioneMenuEs82.A:
+                    Console.WriteLine("Hai scelto l'opzione A");
+                    break;
+                case OpzioneMenuEs82.B:
+                    Console.WriteLine("Hai scelto l'opzione B");
+                    break;
+                case OpzioneMenuEs82.C:
+                    Console.WriteLine("Hai scelto l'opzione C");
+                    break;
+                case OpzioneMenuEs82.Esci:
+                    Console.WriteLine("Uscita dal programma...");
+                    break;
+                default:
+                    Console.WriteLine("Opzione non valida");
+                    break;
+            }
             #endregion
 
-            #region
+            #region es 4 (83)
+            //non so
             #endregion
 
-            #region
+            #region es 5 (84)
+            RettangoloEs84 rettangoloEs84 = new RettangoloEs84(5, 3);
+
+            double areaEs84 = rettangoloEs84.CalcolaArea();
             #endregion
 
-            #region
+            #region es 6 (85)
+            TipoVeicoloEs85 veicoloEs85 = TipoVeicoloEs85.Moto;
             #endregion
 
             #region
