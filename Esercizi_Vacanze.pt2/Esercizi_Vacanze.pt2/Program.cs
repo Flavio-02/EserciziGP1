@@ -233,13 +233,43 @@ namespace Esercizi_Vacanze.pt2
             }
             #endregion
 
-            #region
+            #region es 22 (52)
+                int[] es52 = { };
+
+                if (es52.Length == 0)
+                {
+                    //L'array è vuoto
+                }
+                else
+                {
+                    //L'array non è vuoto
+                }
             #endregion
 
-            #region
+            #region es 23 (53)
+            int es53 = 7;
+
+            if (IsNumeroPrimoEs53(es53))
+            {
+                // Il numero è primo
+            }
+            else
+            {
+                // Il numero non è primo
+            }
             #endregion
 
-            #region
+            #region es 24 (54)
+            string es54 = "anna";
+
+            if (IsPalindromaEs54(es54))
+            {
+                // La parola è palindroma
+            }
+            else
+            {
+                // La parola non è palindroma
+            }
             #endregion
 
             #region
@@ -439,12 +469,30 @@ namespace Esercizi_Vacanze.pt2
 
             #region
             #endregion
+
+
 
 
 
 
+        }
+        static bool IsPalindromaEs54(string parola)
+        {
+            string inversa = new string(parola.Reverse().ToArray());
+            return parola == inversa;
+        }
+        static bool IsNumeroPrimoEs53(int es53)
+        {
+            if (es53 <= 1)
+                return false;
 
+            for (int i = 2; i * i <= es53; i++)
+            {
+                if (es53 % i == 0)
+                    return false;
+            }
 
+            return true;
         }
 
         static string DeterminaGiornoEs48(int giorno)
